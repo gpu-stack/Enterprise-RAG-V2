@@ -1,5 +1,7 @@
 # Enterprise-RAG-V2: Decoupled Multi-Tenant Knowledge Ingestion & Assessment Console
 
+> **ℹ️ This repository is an earlier iteration and is superseded by [Enterprise-AI-Fabric](https://github.com/gpu-stack/Enterprise-AI-Fabric)**, which contains the current, actively maintained version of this platform. It is kept here for history.
+
 A production-grade, highly scalable, multi-tenant Retrieval-Augmented Generation (RAG) platform. The system enforces strict logical tenant partitioning inside a shared vector database, extracts visually complex borderless financial tables, and routes conversational inference dynamically to specialized model weights, on-prem services, or cloud endpoints.
 
 The application uses a modern **decoupled React SPA frontend** and a **FastAPI backend**, containerized as a single multi-stage build image.
